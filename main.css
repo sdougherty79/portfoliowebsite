@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Frank Ruhl Libre', serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-image: url(chicago_background2.png);
+    background-position: 0 -80px;
+    width: 100%;
+}
+header nav {
+    position: relative;
+    overflow: hidden;
+}
+header nav ul {
+    text-align: center;
+    padding-top: 25px;
+}
+.icon {
+    display: none;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+nav li a:hover {
+    color: #ebc800;
+}
+header h1 {
+    font-family: 'Francois One', sans-serif;
+    color: black;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 157.5px;
+    font-weight: lighter;
+}
+header p {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15px;
+}
+.arrow-width {
+    width: 80%;
+}
+.cta-p {
+    width: 33%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.cta-p a {
+    text-decoration: none;
+    color: white;
+}
+.social {
+    font-size: 1.5em;
+    padding: 5px 0;
+}
+.wrapper1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 240px;
+}
+.hdbtn {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: none;
+    padding: 7px 25px;
+    margin: 0 85px;
+}
+.worksb {
+    color: black;
+    background-color: #ebc800;
+}
+.worksb:hover {
+    color: #ebc800;
+    background-color: transparent;
+    outline: 2px #ebc800 solid;
+    outline-offset: -2px;
+    cursor: pointer;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    background-color: #ebc800;
+    color: #161616;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  #myBtn img:last-child{display:none}
+  
+#myBtn:hover {
+    background-color: transparent;
+    border: 2px solid #ebc800;
+    cursor: pointer;
+}
+#myBtn:hover img:first-child{display:none}
+#myBtn:hover img:last-child{display:inline-block}
+
+.contactb {
+    color: white;
+    background-color: black;
+}
+.contactb:hover {
+    color: black;
+    background-color: transparent;
+    outline: 2px black solid;
+    outline-offset: -2px;
+    cursor: pointer;
+}
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+#me {
+    background-color: #161616;
+}
+.aboutme {
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-top: 110px;
+}
+#myimg img {
+    max-width: 100%;
+}
+.abwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+    padding: 100px 0 100px 70px;
+}
+.aboutme h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.aboutme h3 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ebc800;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+.services {
+position: relative;
+display: inline-block;
+min-width: 20%;
+}
+
+.servinfo {
+    color: #161616;
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    display: none;
+    margin-top: 2px;
+    margin-right: 9px;
+    z-index: 1;
+    text-align: center;
+}
+.services h2 {
+    color: #161616;
+    background-color: #ebc800;
+    padding: 20px;
+    min-width: 20%;
+    margin-top: 25px;
+    margin-right: 9px;
+    text-align: center;
+    cursor: pointer;
+}
+.services:hover .servinfo {
+    display: block;
+  }
+.last {
+    margin-right: 0;
+}
+.yelltxt {
+    color: #ebc800;
+}
+.education h3, .skills h3 {
+    border-bottom: 3px solid #ebc800;
+    text-transform: uppercase;
+}
+.education, .skills {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+}
+.titlewrapperedu {
+    padding-top: 110px;
+}
+.titlewrapper {
+    padding-top: 60px;
+}
+.eduwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-top: 110px;
+    padding-left: 160px;
+}
+.socialwrapper {
+    padding-top: 60px;
+    padding-left: 183px;
+}
+.socialwrapper p {
+    padding-bottom: 5px;
+}
+#edup {
+    font-weight: lighter;
+}
+.eduwrapper h2, .yelltxt {
+    padding-bottom: 10px;
+}
+
+.skillscontainer {
+    width: 475px;
+    background-color: #cfcfcf;
+    border-bottom: 20px solid white;
+  }
+
+.skills {
+    padding: 25px 0;
+}
+.socialtabs {width: 86%; background-color: #161616;}
+.html {width: 81%; background-color: #161616;}
+.css {width: 76%; background-color: #161616;}
+.jquery {width: 62%; background-color: #161616;}
+.ps {width: 77%; background-color: #161616;}
+.ill {width: 60%; background-color: #161616;}
+
+#latest {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+}
+#latest h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 25px 25px 5px 25px;
+}
+#latest h3 {
+    padding: 0px 25px 5px 25px;
+}
+#latest img {
+    padding: 10px 25px;
+    max-width: 100%;
+}
+.imgdesc {
+    padding-bottom: 40px;
+    width: 40%;
+    margin: 0 auto;
+}
+#latest button {
+    margin-bottom: 40px;
+}
+.wrapper3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/*
+#testimonials {
+    background-color: #161616;
+}
+#testimonials h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.testbox {
+    background-color: #ebc800;
+    width: 25%;
+    margin: 0 45px;
+    text-align: center;
+    padding: 20px;
+}
+.testbox img {
+    display: inline-block;
+}
+.testcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+*/
+
+#contactus {
+    background-color: white;
+    color: #161616;
+    text-align: center;
+}
+#contactus h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 25px 0 5px 0;
+}
+.theform {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.formsection {
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    display: block;
+    padding: 5px 0;
+}
+input {
+    height: 40px;
+}
+input, textarea {
+    border: 2px solid #161616;
+    border-radius: 3px;
+    padding: 4px;
+    width: 400px;
+}
+*:focus {outline:none !important}
+textarea {
+    resize: none;
+}
+.submit {
+    margin: -5px 0 50px 300px;
+    color: #161616;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: none;
+    padding: 7px 25px;
+}
+
+footer {
+    color: white;
+    background-color: #161616;
+    text-align: center;
+}
+footer p {
+    padding-bottom: 20px;
+}
+
+.footernav a{
+    color: white;
+}
+@media only screen and (max-width: 1200px) { 
+    .cta-p {
+        width: 50%;
+    }
+    .skillscontainer {
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .education, .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .titlewrapperedu, .titlewrapper {
+        text-align: center;
+    }
+    .skillscontainer {
+        width: 70%;
+    }
+    .socialwrapper {
+        padding-left: 0px;
+
+    }
+    .eduwrapper {
+        padding: 50px 0 0 0;
+        width: 85%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    #contactus p {
+        width: 60%;
+        margin: 0 auto;
+    }
+   #imgdesc {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 800px) { 
+    .aboutme {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutme h1 {
+        padding-top: 15px;
+    }
+    .abwrapper {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 0 5% 50px 5%;
+    }
+    .serviceswrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .servinfo {
+        display: block;
+        top: 125px;
+        width: 100%;
+    }
+    .services {
+        padding-bottom: 65px;
+    }
+    .services h2 {
+        padding: 20px;
+        margin-right: 0px;
+    }
+    .cta-p {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .hdbtn {
+        padding: 7px 25px;
+        margin: 0 50px;
+    }
+    .skillscontainer {
+        width: 90%;
+    }
+    #contactus p {
+        width: 80%;
+    }
+    .imgdesc {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 420px) { 
+    header h1 {
+        font-size: 4em;
+        margin-top: 20px;
+    }
+    header p {
+        font-size: .8em;
+    }
+    .social li{
+        padding: 20px 15px;
+    }
+    #topnav {
+        padding-bottom: 5px;
+    }
+    #topnav ul {
+        display: none;
+    }
+    .cta-p {
+        font-size: 1.25em;
+    }
+    .aactive {
+        padding-bottom: 10px;
+    }
+    #myLinks a {
+        color: white;
+        width: 100%;
+    }
+    #myLinks li:active {
+        background-color: #ebc800;
+    }
+    #myLinks li {
+        list-style-type: none;
+        display: block;                                                              
+        padding: 15px;
+        text-align: left;
+        background-color: #161616;
+        font-size: 1em;
+    }
+    #topnav a.icon {
+        background: transparent;
+        color: #161616;
+        display: block;
+        position: absolute;
+        right: 15px;
+        font-size: 19px;
+        top: 16px;
+      }
+      .active {
+        text-decoration: none;
+        color: transparent;
+      }
+    .hdbtn {
+        padding: 7px 25px;
+        margin: 0 20px;
+    }
+    .serviceswrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+    .services {
+        margin-bottom: 35px;
+    }
+    .submit {
+        margin-left: 200px; 
+    }
+
+    input, textarea {
+        width: 300px;
+    }
+    footer p {
+        font-size: .8em;
+    }
+}
