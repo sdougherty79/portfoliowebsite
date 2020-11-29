@@ -4,111 +4,91 @@
     <meta charset="utf-8">
     <title>Shane Dougherty, LLC.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav id="topnav">
-                <div class="aactive active">a</div>
-                <ul id="myLinks">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#me">About Me</a></li>
-                    <li><a href="#latest">Latest Project</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#contactus">Contact</a></li>
-                </ul>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </nav>
-            <h1>I'm Shane Dougherty.</h1>
-            <div class="cta-p">
-                <p>I'm a developing <strong>Web Designer</strong> and <strong>SEO Specialist</strong> in the southeastern Wisconsin area. Let's <strong>start scrolling</strong> for more on my progression into the <strong>world of the web.</strong></p>
-            </div>
-            <nav>
-                <ul class="social">
-                    <li><a href="https://twitter.com/DoughertyShane">T</a></li>
-                    <li><a href="https://www.linkedin.com/in/shane-dougherty-645080124/?trk=hp-identity-name">ln</a></li>
-                    <li><a href="https://medium.com/web-designer-weekly">M</a></li>
+    <section>
+        <header id="header__blog">
+            <nav aria-label="Main" id="header__blog__nav">
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="https://www.behance.net/shanedougherty" target="_blank">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index2.html#block4">Contact</a></li>
                 </ul>
             </nav>
-            <div class="wrapper1">
-                <button class="hdbtn worksb" onclick="window.location.href = '#contactus';">Templates</button>
-                <button class="hdbtn contactb" onclick="window.location.href = '#contactus';">Contact Me</button>
-            </div>
-            <br />
-            <div class="wrapper2">
-                <!--nav arrow-->
-                <a href="#me"><img src="arrow.svg" width="80%" alt="down arrow" /></a>
-            </div>
         </header>
-        <section id="me">
-            <button onclick="topFunction()" id="myBtn" title="Go to top">
-                <img src="arrowUp.svg" width="80%" alt="Up arrow"/>
-                <img src="arrowUp-hover.svg" width="80%" alt="Up arrow"/>
-            </button>
-            <article class="aboutme">
-                <div id="myimg">
-                    <img src="me2.png" alt="Picture of Shane"/>
-                </div>
-                <div class="abwrapper">
-                    <h1>About Me</h1>
-                    <h3>Developing Web Designer & SEO Specialist</h3>
-                    <p>Hey, I'm Shane! I love designing websites and doing search engine optimization. I'm a recent grad looking to expand my skillset and aquire an internship or part-time opportunity moving forward. Like what you see? Feel free to <a href="#contactus">contact me!</a></p>
-                    <br />
-                    <br />
-                    <p>Here's what I offer:</p>
-                    <div class="serviceswrapper">
-                        <div class="services">
-                            <h2>Customizable <br /> Templates</h2>
-                            <div class="servinfo">
-                                <p>Choose one of my provided templates for your brand or ask for custom changes! (additional fee).</p>
-                            </div>
-                        </div>
-                        <div class="services">
-                            <h2>Rich <br /> SEO</h2>
-                            <div class="servinfo">
-                                <p>Powerful search engine optimized websites that increase your brand's presence on Google.</p>
-                            </div>
-                        </div>
-                        <div class="services">
-                            <h2>Free <br /> Updates</h2>
-                            <div class="servinfo">
-                                    <p>Ever need the website updated? No problem! I do free content edits! (Additions & layout changes have added fee).</p>
-                            </div>
-                        </div>
-                        <div class="services">
-                            <h2 class="last">Social <br /> Integration</h2>
-                            <div class="servinfo">
-                                    <p class="last">Integrattion of social media platforms into your website to streamline customer connection.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <div class="wrapper2">
-                <!--nav arrow-->
-                <a href="#me-info"><img src="arrow.svg" width="75%" alt="down arrow" /></a>
-            </div>
-        </section>
+    </section>
+    <section id="blog__background">
+        <div id="blog__container">
+            <div id="blog__section">
+                <article class="blog__article">
+                    <button class="blog__tag">Reflection</button>
+                    <header>
+                        <h2>What Designing a Website Feels Like</h2>
+                        <p class="blog__author">By Shane Dougherty</p>
+                    </header>
+                    <img src="images/site.PNG" alt="Website Across multiple kinds of devices">
+                    <p class="blog__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum natus ipsa possimus debitis nobis aliquam, animi facilis illo. Minus id dolorum asperiores cum soluta consectetur ea sapiente ipsa est iste!
+                    Eos est laudantium maxime obcaecati excepturi eaque iure praesentium provident cum necessitatibus nam nihil repellat eligendi tenetur et dicta culpa optio officia cumque corrupti, incidunt nesciunt repudiandae dolor ipsa? Vel.
+                    Adipisci corrupti ad est laudantium voluptates rerum quia eveniet fugiat maxime aliquid. Culpa pariatur ipsum itaque, omnis fugiat, at, laborum ipsa eveniet dignissimos et asperiores inventore iure. Voluptatibus, reprehenderit dolor!</p>
+                    <button class="button__yellow" onclick="window.location.href = 'blogpost1.html';">Read More</button>
+                </article>
 
-        <footer>
-            <nav>
-                 <ul class="social footernav">
-                    <li><a href="https://twitter.com/DoughertyShane">F</a></li>
-                    <li><a href="https://twitter.com/DoughertyShane">T</a></li>
-                    <li><a href="https://www.google.com/search?ludocid=14154143131033326486&hl=en&q=Shane%20Dougherty%2C%20LLC.%201816%20COLLEGE%20AVE%20STEVENS%20POINT%2C%20WI%2054481&_ga=2.23601074.96185321.1553140767-418329148.1553140767#fpstate=lie">Gb</a></li>
-                    <li><a href="https://www.linkedin.com/in/shane-dougherty-645080124/?trk=hp-identity-name">ln</a></li>
-                    <li><a href="https://medium.com/web-designer-weekly">M</a></li>
-                </ul>
-            </nav>
-            <p>Copyright © 2019 Shane Dougherty, LLC. All Rights Reserved.</p>
-        </footer>
-    </div>
+                <!--
+                <article class="blog__article">
+                    <button class="blog__tag">Learning</button>
+                    <header>
+                        <h2>What Designing a Website Feels Like</h2>
+                        <p class="blog__author">By Shane Dougherty</p>
+                    </header>
+                    <img src="images/site.PNG" alt="Website Across multiple kinds of devices">
+                    <p class="blog__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum natus ipsa possimus debitis nobis aliquam, animi facilis illo. Minus id dolorum asperiores cum soluta consectetur ea sapiente ipsa est iste!
+                    Eos est laudantium maxime obcaecati excepturi eaque iure praesentium provident cum necessitatibus nam nihil repellat eligendi tenetur et dicta culpa optio officia cumque corrupti, incidunt nesciunt repudiandae dolor ipsa? Vel.
+                    Adipisci corrupti ad est laudantium voluptates rerum quia eveniet fugiat maxime aliquid. Culpa pariatur ipsum itaque, omnis fugiat, at, laborum ipsa eveniet dignissimos et asperiores inventore iure. Voluptatibus, reprehenderit dolor!</p>
+                    <button class="button__yellow">Read More</button>
+                </article> -->
+            </div>
+            <div id="about__section">
+                <article id="blog__aboutMe">
+                    <header>
+                        <h2 class="blog__side__headers">About Me</h2>
+                    </header>
+                    <img src="/images/me2.jpg" alt="Me">
+                    <p>Content writer & SEO Specialist in training. Living every day to make the world a better place. Always available for hire! Email: sdougherty79@gmail.com.</p>
+                </article>
+                <article id="blog__connect">
+                    <header>
+                        <h2 class="blog__side__headers">Connect With Me</h2>
+                    </header>
+                    <a href="https://twitter.com/DoughertyShane" target="_blank">
+                        <figure>
+                            <img src="/images/twitter_icon.svg" alt="My Twitter">
+                            <figcaption>Twitter</figcaption>
+                        </figure>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shane-dougherty1/" target="_blank">
+                        <figure>
+                            <img src="/images/linked_icon.svg" alt="My LinkedIn">
+                            <figcaption>LinkedIn</figcaption>
+                        </figure>
+                    </a>
+                    <a href="https://medium.com/@DoughertyShane" target="_blank">
+                        <figure>
+                            <img src="/images/medium_icon.svg" alt="My Medium">
+                            <figcaption>Medium</figcaption>
+                        </figure>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer id="blog__footer">
+        <p>Copyright © 2020 Shane Dougherty, LLC. All Rights Reserved.</p>
+    </footer>
     <script>
             //navbar implementation
             function myFunction() {
@@ -135,5 +115,6 @@
               document.body.scrollTop = 0;
               document.documentElement.scrollTop = 0;
             }
-            </script>
+    </script>
 </body>
+</html>

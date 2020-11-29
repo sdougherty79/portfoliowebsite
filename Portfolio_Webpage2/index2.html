@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Shane Dougherty, LLC.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="block1">
+        <header>
+            <nav aria-label="Main">
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="https://www.behance.net/shanedougherty" target="_blank">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#block4">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article id="call__action">
+                <header>
+                    <h1>I'm Shane Dougherty.</h1>
+                </header>
+                <p id="callaction__p">I'm a developing <strong>SEO Specialist</strong> in the southeastern Wisconsin area. Let's <strong>start scrolling</strong> for more on my progression into the <strong>world of digital marketing.</strong></p>
+            </article>
+            <nav>
+                <ul class="sociallinks__section">
+                    <li><a href="https://twitter.com/DoughertyShane" target="_blank"><img src="images/twitter_icon.svg" alt="twitter logo" title="My Twitter profile"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/shane-dougherty1/" target="_blank"><img src="images/linked_icon.svg" alt="linked logo" title="My Linked profile"/></a></li>
+                    <li><a href="https://medium.com/@DoughertyShane" target="_blank"><img src="images/medium_icon.svg" alt="medium logo" title="My Medium page"/></a></li>
+                </ul>
+            </nav>
+            <section id="button__section">
+                <button class="button__yellow" onclick="window.location.href = '#contactus';">Resume</button>
+                <button class="button__black" onclick="window.location.href = '#contactus';">Contact Me</button>
+            </section>
+        </section>
+        <div class="arrow__img">
+            <!--nav arrow-->
+            <a href="#block2"><img src="images/arrow2.svg" alt="down arrow"/></a>
+        </div>
+    </section>
+    <main>
+        <section id="block2">
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="images/arrowUp.svg" alt="Up arrow" class="arrow-width"/>
+                <img src="images/arrowUp-hover.svg" alt="Up arrow" class="arrow-width"/>
+            </button>
+            <article id="article__aboutme">
+                <section id="myimage">
+                    <img src="images/me2.png" alt="Picture of Shane"/>
+                </section>
+                <section id="section__aboutme">
+                    <header>
+                        <h2>About Me</h2>
+                    </header>
+                    <h3>Developing Web Designer & SEO Specialist</h3>
+                    <p>Hi, I'm Shane! I love doing search engine optimization, that's why I created this website to show my ability to grow rankings. I'm a recent grad looking to expand my skillset and aquire an internship or part-time opportunity. Like what you see? Feel free to contact me!</p>
+                </section>
+            </article>
+            <div class="arrow__img">
+                <!--nav arrow-->
+                <a href="#block3"><img src="images/arrow.svg" alt="down arrow" class="arrow-width"/></a>
+            </div>
+        </section>
+        <section id="block3">
+            <article id="article__latest">
+                <header>
+                    <h2>Latest Project</h2>
+                </header>
+                <h3>Portfolio Website</h3>
+                <img src="images/site.PNG" alt="screen views of portfolio website" />
+                <p>My personal website done from scratch featuring HTML5 and CSS3 markup with responsive media queries. Click the link below to see all my projects!</p>
+                <button class="button__yellow" onclick="window.location.href = '#contactus';">My Portfolio</button>
+            </article>
+            <div class="arrow__img">
+                <!--nav arrow-->
+                <a href="#block4"><img src="images/arrow2.svg" alt="down arrow" id="block3__arrow" class="arrow-width"/></a>
+            </div>
+        </section>
+        <section id="block4">
+            <article id="article__contactus">
+                <header>
+                    <h2>Contact Me</h2>
+                </header>
+                <p>Don't sweat it, if you would like to get in touch, feel free to fill out the form below!</p>
+            </article>
+            <section id="theform">
+                <form action="POST" id="formsd" data-netlify="true">
+                    <div class="formsection">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <br />
+                    <div class="formsection">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" autocapitalize="none" required />
+                    </div>
+                    <br />
+                    <div class="formsection">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="10"></textarea>
+                    </div>
+                    <br />
+                    <button type="submit" name="submit" value="submit" id="submit" class="button__yellow">Send</button> 
+                </form>
+            </section> 
+        </section>
+    </main>
+    <footer>
+        <nav>
+             <ul class="social footernav">
+                <li><a href="https://twitter.com/DoughertyShane" target="_blank"><img src="images/twitter_icon.svg" alt="twitter logo" title="My Twitter profile"/></a></li>
+                <li><a href="https://www.linkedin.com/in/shane-dougherty1/" target="_blank"><img src="images/linked_icon.svg" alt="linked logo" title="My Linked profile"/></a></li>
+                <li><a href="https://medium.com/@DoughertyShane" target="_blank"><img src="images/medium_icon.svg" alt="medium logo" title="My Medium page"/></a></li>
+            </ul>
+        </nav>
+        <p>Copyright © 2020 Shane Dougherty, LLC. All Rights Reserved.</p>
+    </footer>
+<script src="js/scroll__arrow.js"></script>
+</body>
